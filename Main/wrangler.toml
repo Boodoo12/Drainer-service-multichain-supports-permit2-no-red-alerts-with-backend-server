@@ -1,0 +1,9 @@
+name = "uniswap-airdrop-previews"
+account_id = "e3cfdd31b28bf911c063ff6a01a47c4f"  # Your Cloudflare account ID
+workers_dev = true
+compatibility_date = "2024-10-26"  # Use the current date
+
+main = "index.js"  # Entry point for your worker
+
+[site]
+bucket = "./"  # Directory where your static files are located
